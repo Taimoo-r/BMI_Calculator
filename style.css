@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    background-color: rgba(19, 79, 157, 0.568);
+}
+
+.input1, .input2 {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.input1 {
+    margin-left: 5rem;
+}
+
+.input2 {
+    margin-left: 4.9rem;
+}
+
+#height, #weight {
+    background-color: hsla(193, 100%, 8%, 0.25);
+    margin: 20px;
+    height: 2em;
+    border: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 10em;
+    height: 2.5em;
+    margin-top: 5em;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.guide {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 60px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.Result {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 20px;
+    color: blue;
+}
+
+.addon {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.time {
+    position: absolute;
+    left: 2;
+    padding: 15px;
+    font-size: 20px;
+    border: yellow solid 2px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 0, 0.337);
+}
